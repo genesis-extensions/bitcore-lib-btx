@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-lib-btx",
+  "name": "bitcore-lib-genesis",
   "version": "0.13.20",
   "description": "A pure and powerful JavaScript BitCore library.",
   "author": "TheTrunk <tessjonesie@gmail.com>",
@@ -69,7 +69,7 @@
     }
   ],
   "keywords": [
-    "btx",
+    "genesis",
     "transaction",
     "address",
     "p2p",
@@ -86,7 +86,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BTXinsightk/bitcore-lib-btx.git"
+    "url": "https://github.com/genesis-extended/bitcore-lib-genesis.git"
   },
   "browser": {
     "request": "browser-request"
@@ -100,7 +100,7 @@
     "lodash": "=3.10.1"
   },
   "devDependencies": {
-    "bitcore-build-btx": "git://github.com/BTXinsight/bitcore-build-btx#master",
+    "bitcore-build-genesis": "git://github.com/genesis-extended/bitcore-build-genesis#master",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",

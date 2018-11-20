@@ -6,9 +6,9 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of bitcore-lib-btx found. ' +
-      'Please make sure to require bitcore-lib-btx and check that submodules do' +
-      ' not also include their own bitcore-lib-btx dependency.';
+    var message = 'More than one instance of bitcore-lib-genesis found. ' +
+      'Please make sure to require bitcore-lib-genesis and check that submodules do' +
+      ' not also include their own bitcore-lib-genesis dependency.';
     // TODO: put this back if we start versioning again
     //throw new Error(message);
   }
